@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-from newsapi import NewsApiClient
+# from newsapi import NewsApiClient
 
 app = Flask(__name__)
-newsapi = NewsApiClient(api_key='90aad9a1a82547639867de137a091718')
+# newsapi = NewsApiClient(api_key='90aad9a1a82547639867de137a091718')
 
 
 @app.route('/')

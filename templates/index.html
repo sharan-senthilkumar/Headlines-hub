@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flowbite Flask</title>
+    <title>News Hub</title>
     <link
       rel="stylesheet"
       href="{{url_for('static',filename='css/output.css')}}"
@@ -16,34 +16,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="box-border m-0 p-0 flex flex-col">
-    <header class="w-3/5 mx-auto my-12">
-      <nav class="text-2xl flex items-center justify-around">
-        <div class="flex gap-4 p-6">
-          <i class="fa-regular fa-newspaper fa-xl my-4"></i>
-        </div>
-        <div class="flex">
-            <i class="fa-brands fa-searchengin fa-xl my-8 relative left-10"></i>
-            <input type="search" placeholder="Search by Keyword" name="" id="" class="border-4 rounded-2xl py-2 px-12 w-full max-w-96">
-        </div>
-        <ul class="flex gap-12 items-end justify-around">
-            <li>Home</li>
-            <li>About Us</li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="w-full p-4 text-xl">
-        <div class="w-full">
-            <h1>Keyword: <span>World</span></h1>
-            <h1>Queries count : <span>1232</span></h1>
-        </div>
-
-        <div class="w-full h-full h-max-fit-content bg-slate-400 p-10 flex gap-10 ">
-            <!-- <div class="w-full max-w-72 bg-purple-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nobis officia neque mollitia asperiores quos, deleniti atque nihil nostrum vero eligendi delectus velit debitis recusandae nam voluptatum repudiandae? Sequi, tenetur.</div> -->
-            <div class="after:contents-'No queries'"></div>
-        </div>
-    </main>
+    
+    <script src="{{url_for('static',filename='js/script.js')}}"></script>
   </body>
 </html>
