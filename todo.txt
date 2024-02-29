@@ -1,0 +1,6 @@
+1. CSS styling
+2. Api integration
+3. keyword parsing
+4. searck query
+5. tailwind flask binding
+6. deployment
