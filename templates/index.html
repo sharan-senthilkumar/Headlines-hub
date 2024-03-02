@@ -60,22 +60,22 @@
     </div>
 
     <div id="main" class="text-xl flex flex-col w-full bg-purple-500">
-      <div id="search" class="bg-slate-500 w-fit m-4">
+      <div id="search" class="bg-slate-500 w-full m-0 max-sm: flex flex-col">
         <div id="filter_content" class="p-2 flex gap-4 max-sm:flex-wrap">
-          <div id="search_container" class="flex">
+          <div id="search_container" class="flex ">
             <input
               type="search"
               name="keyword"
               id="keyword"
               placeholder="Search by keyword"
-              class="w-96 pr-14 pl-4 py-4 rounded-2xl"
+              class="w-80 pr-14 pl-4 py-4 rounded-2xl"
             />
             <i
-              class="fa-solid fa-magnifying-glass fa-xl relative right-12 top-8"
+              class="fa-solid fa-magnifying-glass fa-xl relative right-12 top-8 max-sm:top-8 "
             ></i>
           </div>
 
-          <div id="dropdown" class="flex gap-8 my-4 w-full">
+          <div id="dropdown" class="flex gap-8 my-4 w-full ">
             <h1 id="filter">Filter By:</h1>
             <select name="category" id="category" class="w-64 bg-transparent">
               <option value="">business</option>
