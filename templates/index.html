@@ -23,6 +23,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body class="box-border m-0 p-0 flex flex-col">
     <div id="header" class="w-full flex flex-col p-4 bg-green-600 text-2xl">
       <div
@@ -62,7 +63,7 @@
     <div id="main" class="text-xl flex flex-col w-full bg-purple-500">
       <div id="search" class="bg-slate-500 w-full m-0 max-sm: flex flex-col">
         <div id="filter_content" class="p-2 flex gap-4 max-sm:flex-wrap">
-          <div id="search_container" class="flex ">
+          <div id="search_container" class="flex">
             <input
               type="search"
               name="keyword"
@@ -71,11 +72,11 @@
               class="w-80 pr-14 pl-4 py-4 rounded-2xl"
             />
             <i
-              class="fa-solid fa-magnifying-glass fa-xl relative right-12 top-8 max-sm:top-8 "
+              class="fa-solid fa-magnifying-glass fa-xl relative right-12 top-8 max-sm:top-8 max-md:top-10"
             ></i>
           </div>
 
-          <div id="dropdown" class="flex gap-8 my-4 w-full ">
+          <div id="dropdown" class="flex gap-8 my-4 w-24">
             <h1 id="filter">Filter By:</h1>
             <select name="category" id="category" class="w-64 bg-transparent">
               <option value="">business</option>
@@ -90,10 +91,11 @@
         </div>
       </div>
 
-      <div id="stories" class="my-4 bg-yellow-400 min-w-fit m-4 p-8">
+
+      <div id="stories" class="my-4 bg-yellow-400 min-w-fit m-4 p-8 ">
         <h2>Top Stories</h2>
 
-        <div id="article" class="w-full my-4 flex gap-2 max-sm:flex-col">
+        <div id="article" class="w-full my-4 flex gap-2 max-sm:flex-col max-md:flex-wrap">
           <img
             src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2041443781.jpeg?c=16x9&q=w_800,c_fill"
             class="w-72"
@@ -102,74 +104,6 @@
             <h1 id="title">Title</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              corrupti id veniam voluptates repudiandae voluptatem ipsa neque
-              dicta adipisci eos! Perferendis, optio at suscipit quibusdam velit
-              sapiente nobis excepturi enim!
-            </p>
-            <button
-              id="anchor"
-              class="bg-red-600 my-2 text-white ease-in-out p-2 hover:text-red-600 hover:bg-white"
-            >
-              Read more
-            </button>
-          </div>
-        </div>
-
-        <div id="article" class="w-full my-8 flex flex-row-reverse gap-2 max-sm:flex-col">
-          <img
-            src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2041443781.jpeg?c=16x9&q=w_800,c_fill"
-            class="w-72"
-          />
-          <div id="content" class="flex-wrap">
-            <h1 id="title">Title</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              corrupti id veniam voluptates repudiandae voluptatem ipsa neque
-              dicta adipisci eos! Perferendis, optio at suscipit quibusdam velit
-              sapiente nobis excepturi enim!
-            </p>
-            <button
-              id="anchor"
-              class="bg-red-600 my-2 text-white ease-in-out p-2 hover:text-red-600 hover:bg-white"
-            >
-              Read more
-            </button>
-          </div>
-        </div>
-
-        <div id="article" class="w-full my-8 flex gap-2 max-sm:flex-col">
-          <img
-            src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2041443781.jpeg?c=16x9&q=w_800,c_fill"
-            class="w-72"
-          />
-          <div id="content" class="flex-wrap">
-            <h1 id="title">Title</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              corrupti id veniam voluptates repudiandae voluptatem ipsa neque
-              dicta adipisci eos! Perferendis, optio at suscipit quibusdam velit
-              sapiente nobis excepturi enim!
-            </p>
-            <button
-              id="anchor"
-              class="bg-red-600 my-2 text-white ease-in-out p-2 hover:text-red-600 hover:bg-white"
-            >
-              Read more
-            </button>
-          </div>
-        </div>
-        <div
-          id="article"
-          class="w-full my-8 flex flex-row-reverse gap-2 max-sm:flex-col"
-        >
-          <img
-            src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2041443781.jpeg?c=16x9&q=w_800,c_fill"
-            class="w-72"
-          />
-          <div id="content" class="flex-wrap">
-            <h1 id="title">Title</h1>
-            <p>
-              Lorem ipsum dolor sit amet consxectetur adipisicing elit. Minus
               corrupti id veniam voluptates repudiandae voluptatem ipsa neque
               dicta adipisci eos! Perferendis, optio at suscipit quibusdam velit
               sapiente nobis excepturi enim!
